@@ -1,0 +1,21 @@
+.blog-post {
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.blog-post h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.post-date {
+  color: #777;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.post-content {
+  color: #555;
+}

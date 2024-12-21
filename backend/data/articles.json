@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Welcome to My Blog",
+    "content": "This is the first article on my blog. Stay tuned for more updates!",
+    "date": "2024-12-14"
+  },
+  {
+    "id": 2,
+    "title": "Understanding React and Express",
+    "content": "React is a powerful library for building user interfaces, while Express is a minimalist backend framework. Together, they form a great stack for full-stack development.",
+    "date": "2024-12-13"
+  },
+  {
+    "id": 3,
+    "title": "Top 5 JavaScript Tips for Beginners",
+    "content": "JavaScript is versatile, but learning it can be tricky. Here are my top 5 tips to help you become proficient in JavaScript: 1. Understand closures, 2. Master async/await, 3. Use ES6 features, 4. Debug effectively, 5. Practice coding challenges.",
+    "date": "2024-12-12"
+  }
+]

@@ -1,0 +1,59 @@
+.blog-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.blog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.blog-header h1 {
+  color: #333;
+}
+
+.logout-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
+
+.post-preview {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd; /* Đường kẻ dưới mỗi bài viết */
+  margin-bottom: 10px; /* Khoảng cách giữa các bài viết */
+}
+
+.post-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none; /* Loại bỏ gạch chân */
+  color: #333;
+  margin-right: 50px; /* Khoảng cách giữa tiêu đề và ngày */
+  cursor: pointer;
+}
+
+.post-title:hover {
+  color: #007bff; /* Thay đổi màu khi hover */
+}
+
+.post-date {
+  font-size: 14px;
+  color: #666;
+}
