@@ -23,7 +23,7 @@ export const register = async (req, res) => {
 
   if (users.length) {
     const userExist = users.find((user) => user.username === username);
-    if (userExist) {
+    if (!userExist) {
       return res.json({ success: false, message: "Username already exists" });
     }
   }
@@ -58,5 +58,5 @@ export const login = async (req, res) => {
     expiresIn: "1h",
   });
 
-  res.json({ success: true, token });
+  return res.json({ success: true, token });
 };

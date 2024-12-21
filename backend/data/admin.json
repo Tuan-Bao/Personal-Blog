@@ -1,12 +1,7 @@
 [
   {
     "id": 1,
-    "username": "admin",
-    "password": "12345678"
-  },
-  {
-    "id": 2,
-    "username": "admin2",
-    "password": "password1234"
+    "username": "A Khoai",
+    "password": "$2b$10$TNXhAkJ14EafF.rVtn3k4.PxHaY94GFREkIyd9.k5jkcADd7YV4Zm"
   }
 ]
